@@ -16,8 +16,7 @@ public class MongoAdapter {
 						
 	}
 	
-	public MongoCollection<Document> DoStuff()
-	//public long DoStuff()
+	public MongoCollection<Document> GetCars()
 	{
 		db = client.getDatabase("carimageapp");	
 		
